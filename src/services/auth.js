@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: `${import.meta.env.VITE_BACKEND_URL}/api/auth`,
+  baseURL: "https://job-backend-6jc9.onrender.com/api/auth",
   withCredentials: true,
 });
 
