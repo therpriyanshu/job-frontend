@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://your-railway-backend-url/api/auth",
+  baseURL: `${import.meta.env.VITE_BACKEND_URL}/api/auth`,
   withCredentials: true,
 });
 
