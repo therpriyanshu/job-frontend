@@ -1,9 +1,9 @@
 import axios from "axios";
 
-console.log("Backend URL:", process.env.REACT_APP_BACKEND);
+console.log("Backend URL:", import.meta.env.VITE_BACKEND_URL);
 
 const API = axios.create({
-  baseURL: process.env.REACT_APP_BACKEND,
+  baseURL: import.meta.env.VITE_BACKEND_URL,
   withCredentials: true,
 });
 
