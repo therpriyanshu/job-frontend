@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://job-backend-6jc9.onrender.com",
+  baseURL: process.env.REACT_APP_BACKEND,
   withCredentials: true,
 });
 
