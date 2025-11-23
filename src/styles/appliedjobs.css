@@ -1,0 +1,63 @@
+/* Container */
+.applied-container {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+}
+
+/* Title */
+.applied-title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #222;
+}
+
+/* No job text */
+.no-jobs {
+  font-size: 16px;
+  color: #555;
+}
+
+/* List container */
+.applied-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List item */
+.applied-item {
+  padding: 14px 18px;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: 0.2s;
+}
+
+.applied-item:hover {
+  background: #fafafa;
+}
+
+/* Job title */
+.job-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+}
+
+/* Status */
+.job-status {
+  font-size: 14px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  background: #eef1ff;
+  color: #4256d0;
+  font-weight: 500;
+}
